@@ -1,3 +1,3 @@
 function begin() {
-  location.replace("../Shopping/details/index.html");
+  location.replace("./details/index.html");
 }

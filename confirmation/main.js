@@ -22,10 +22,3 @@ function paymentSelect(element) {
     element.classList.toggle("highlightBox");
   }
 }
-// function nextPage() {
-//   var correct = document.querySelector("#box6");
-//   console.log(correct);
-//   if (correct.classList.contains(correect)) {
-
-//   }
-// }
