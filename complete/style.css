@@ -1,0 +1,35 @@
+body {
+  background: rgb(126, 250, 119);
+  background: radial-gradient(
+    circle,
+    rgba(126, 250, 119, 0.7120098039215687) 19%,
+    rgba(141, 237, 181, 1) 100%
+  );
+  color: #3a056e;
+  padding: 0 24px;
+  margin: 0;
+  font-size: 1.5vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul {
+  width: 40vw;
+  margin: 2vw;
+}
+
+li:hover {
+  color: green;
+}
+
+img {
+  display: block;
+  margin: 5vw auto;
+  width: 15vw;
+}
+
+h1 {
+  font-size: 4vw;
+  color: darkblue;
+  text-align: center;
+}

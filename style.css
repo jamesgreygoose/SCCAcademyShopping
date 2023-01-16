@@ -1,0 +1,43 @@
+body {
+  background-color: lightcyan;
+}
+
+h1 {
+  font-size: 4vw;
+  color: darkblue;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2vw;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.8vw;
+  color: darkblue;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 20vw;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+li {
+  font-size: 1.5vw;
+}
+
+button {
+  border-radius: 10%;
+  border: black solid 1px;
+  width: 10vw;
+}
+
+button:hover {
+  background-color: greenyellow;
+}

@@ -1,0 +1,78 @@
+#selection-box {
+  border: solid black 1px;
+  width: 22vw;
+  height: 30vh;
+  z-index: 0;
+  position: absolute;
+  left: 800px;
+  top: 20vw;
+  /* border: none; */
+}
+
+#container {
+  width: 61vw;
+  display: block;
+  margin: 0 auto;
+}
+.traffic {
+  width: 20vw;
+  height: 30vh;
+}
+
+.traffic:hover {
+  border: yellow solid 3px;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 4vw;
+  color: darkblue;
+  text-align: center;
+}
+
+p {
+  font-size: 2vw;
+  padding: 0.7vw;
+}
+.toggle {
+  opacity: 0.5;
+}
+
+.payment-button,
+.payment-image {
+  width: 12vw;
+  height: 7vw;
+  border: none;
+  filter: grayscale(60%);
+  display: block;
+  margin: 0 auto;
+}
+
+.highlightBox {
+  filter: grayscale(0%);
+  filter: brightness(2);
+}
+
+#button-container {
+  display: block;
+  margin: 5vh auto;
+}
+
+#paypal {
+  position: relative;
+  right: 10%;
+  /* top: 15vh; */
+}
+
+#credit-card {
+  position: relative;
+  left: 7%;
+  bottom: 15vh;
+}
+
+#card-instructions,
+#bus-explanation {
+  border: solid darkblue 3px;
+  padding: 1vw;
+  background-color: lightblue;
+  margin: 2vw;
+}

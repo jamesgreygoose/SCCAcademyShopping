@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Choosing a payment method</h1>
+    <p>
+      Once you have entered your details, you will be asked how you would like
+      to pay. You may be given the options of PayPal, a safe and simple way to
+      send money via the internet, or by using a credit or debit card.
+    </p>
+    <p id="card-instructions">
+      In the following exercise, choose to play <strong>by card</strong>
+    </p>
+    <div id="button-container">
+      <div id="paypal" onclick="paymentSelect(this)" class="payment-button">
+        <img class="payment-image" src="../media/paypal.jpg" />
+      </div>
+      <div
+        id="credit-card"
+        onclick="paymentSelect(this)"
+        class="payment-button"
+      >
+        <img class="payment-image" src="../media/credit card.jpg" />
+      </div>
+    </div>
+
+    <p>
+      Online retailers will also often ask you to complete a simple task to show
+      that you are a real person and not a computer program.
+    </p>
+    <p id="bus-explanation">
+      Click on the picture containing a bus to move to the next page.
+    </p>
+    <div id="container">
+      <img
+        id="box1"
+        src="../media/veh1.png"
+        class="traffic"
+        alt="traffic collage"
+        onclick="select(this)"
+      />
+      <img
+        id="box2"
+        src="../media/veh2.png"
+        class="traffic"
+        alt="traffic collage"
+        onclick="select(this)"
+      />
+      <img
+        id="box3"
+        src="../media/veh3.png"
+        class="traffic"
+        alt="traffic collage"
+        onclick="select(this)"
+      />
+      <img
+        id="box4"
+        src="../media/veh4.png"
+        class="traffic"
+        alt="traffic collage"
+        onclick="select(this)"
+      />
+      <img
+        id="box5"
+        src="../media/veh5.png"
+        class="traffic"
+        alt="traffic collage"
+        onclick="select(this)"
+      />
+      <img
+        id="box6"
+        src="../media/veh6.png"
+        class="traffic"
+        alt="traffic collage"
+        onclick="select(this)"
+      />
+    </div>
+    <!-- <button onclick="nextPage()">Submit</button> -->
+    <script src="./main.js"></script>
+  </body>
+</html>

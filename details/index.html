@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Completing your details</h1>
+    <p id="explanation">
+      When purchasing an item online, you will need to add some of your personal
+      details. This will include your email address and name. You might also be
+      prompted to create and confirm a password. Fill in the form on this page
+      and create your own password. Remember, it should involve at least:
+    </p>
+    <ul>
+      <li>one capital letter</li>
+      <li>one number</li>
+      <li>and one special character.</li>
+    </ul>
+    <form>
+      <label for="email-address">Email Address:</label><br />
+      <input type="text" id="email-address" name="email-address" /><br />
+      <label for="password">Password:</label><br />
+      <input type="text" id="password" name="password" /><br />
+      <label for="confirm">Confirm Password:</label><br />
+      <input type="text" id="confirm" name="confirm" /><br />
+      <label for="name">First Name:</label><br />
+      <input type="text" id="firstName" name="name" /><br />
+      <label for="surname">Surname:</label><br />
+      <input type="text" id="surname" name="surname" /><br />
+      <br />
+      <input id="submit" onclick="respond()" value="Submit" />
+      <p id="response"></p>
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
